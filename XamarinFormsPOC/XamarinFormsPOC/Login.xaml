@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:webcontrol="clr-namespace:XamarinFormsPOC"
+             x:Class="XamarinFormsPOC.Login">  
+        
+  
+   <!-- <WebView Source="http://10.214.64.122/B2Cdev"></WebView> -->
+
+	<!-- <webcontrol:WebViewer Source="http://10.214.64.122/B2Cdev" EvaluateJavascript="{Binding EvaluateJavascript}, Mode=OneWayToSource}"></webcontrol:WebViewer>  -->
+
+	<!-- <Entry Text="{Binding TestText}"></Entry> -->
+
+
+
+	<Grid>
+	<Grid.RowDefinitions>
+	<RowDefinition Height="370"/>
+	<RowDefinition Height="*"/>
+	</Grid.RowDefinitions>
+
+
+	<Grid Grid.Row="0">
+		<Grid.ColumnDefinitions>
+		 <ColumnDefinition/>
+		 <ColumnDefinition/>
+		</Grid.ColumnDefinitions>
+
+			<Grid Grid.Column="0">
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition/>
+				</Grid.RowDefinitions>
+
+				<Button Text="Get Html Content from Webview"  Clicked="Handle_Clicked" Grid.Row="0"/>
+				<Editor x:Name="txtHtmlContent" Text="" Grid.Row="1"></Editor>
+
+				
+			</Grid>
+			<Grid Grid.Column="1">
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+		            <RowDefinition />
+				</Grid.RowDefinitions>
+				<Grid Grid.Row="0">
+					<Grid.RowDefinitions>
+					<RowDefinition/>
+		            <RowDefinition/>
+				</Grid.RowDefinitions>
+					<Button  x:Name="btnWV_TO_MOB" Clicked="btnWV_TO_MOB_Clicked" Text="Get Value from WebView and display in Mobile App" Grid.Row="0"></Button>
+					<Button  x:Name="btnMOB_TO_WV" Clicked="btnMOB_TO_WV_Clicked" Text="Get Value from Mobile App and Change in WebView" Grid.Row="1"></Button>
+				</Grid>
+				<StackLayout Grid.Row="1" BackgroundColor="Silver"  Orientation="Vertical">
+					<Label Text="Name"></Label>
+					<Entry x:Name="txtName" Text=""></Entry>
+					<Label Text="Address"></Label>
+					<Entry x:Name="txtAddress" Text=""></Entry>
+					<Label Text="City"></Label>
+					<Entry x:Name="txtCity" Text=""></Entry>
+				</StackLayout>
+			</Grid>
+
+	</Grid>
+		
+	<!--	<Button Text="GetHtml" Clicked="Handle_Clicked" Grid.Row="0"></Button> -->
+		
+	<!--	<webcontrol:WebViewer  Grid.Row="1" Source="http://10.214.64.122/B2Cdev" EvaluateJavascript="{Binding EvaluateJavascript}, Mode=OneWayToSource}"></webcontrol:WebViewer>  -->
+
+	<Grid Grid.Row="1">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="*"/>
+		   </Grid.RowDefinitions>
+
+			<Grid Grid.Row="0">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition/>
+					<ColumnDefinition Width="Auto"/>
+				</Grid.ColumnDefinitions>
+				<Entry x:Name="weburl" Text="" Placeholder="Paste Web Url Here" Grid.Column="0"></Entry>
+				<Button Text="Go" x:Name="btnGo" Clicked="btnGO_Clicked" Grid.Column="1"></Button>
+			</Grid>
+			
+
+
+		
+				<webcontrol:WebViewer x:Name="b2cwebview" Grid.Row="1"  Navigating="Handle_Navigating"   EvaluateJavascript="{Binding EvaluateJavascript}, Mode=OneWayToSource}"></webcontrol:WebViewer> 
+			
+
+
+	</Grid>
+		
+	</Grid>
+
+
+
+</ContentPage>
