@@ -1,0 +1,47 @@
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\bin\Debug\App.xbf
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\bin\Debug\MainPage.xbf
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\bin\Debug\XamarinFormsPOC.WindowsPhone 8.1.xr.xml
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\bin\Debug\XamarinFormsPOC.WindowsPhone 8.1.exe
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\bin\Debug\XamarinFormsPOC.WindowsPhone 8.1.pdb
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\bin\Debug\resources.pri
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\bin\Debug\AppxManifest.xml
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\bin\Debug\XamarinFormsPOC.WindowsPhone 8.1.build.appxrecipe
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\bin\Debug\Xamarin.Forms.Core.dll
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\bin\Debug\Xamarin.Forms.Platform.dll
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\bin\Debug\Xamarin.Forms.Platform.WinRT.dll
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\bin\Debug\Xamarin.Forms.Platform.WinRT.Phone.dll
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\bin\Debug\XamarinFormsPOC.dll
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\bin\Debug\XamarinFormsPOC.pdb
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\bin\Debug\Xamarin.Forms.Core.xml
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\bin\Debug\Xamarin.Forms.Platform.WinRT.pri
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\bin\Debug\Xamarin.Forms.Platform.WinRT.Phone.pri
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\XamarinFormsPOC.WindowsPhone 8.1.csprojResolveAssemblyReference.cache
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\App.g.i.cs
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\App.g.cs
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\MainPage.g.i.cs
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\MainPage.g.cs
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\XamlTypeInfo.g.cs
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\XamlSaveStateFile.xml
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\App.xaml
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\MainPage.xaml
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\App.xbf
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\MainPage.xbf
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\XamarinFormsPOC.WindowsPhone 8.1.exe
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\XamarinFormsPOC.WindowsPhone 8.1.pdb
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\XamarinFormsPOC.WindowsPhone 8.1.csproj.GenerateResource.Cache
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\priconfig.xml
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\priconfig.xml.intermediate
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\layout.resfiles
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\layout.resfiles.intermediate
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\resources.resfiles
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\resources.resfiles.intermediate
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\pri.resfiles
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\pri.resfiles.intermediate
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\qualifiers.txt
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\qualifiers.txt.intermediate
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\Xamarin.Forms.Platform.WinRT.pri.xml
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\Xamarin.Forms.Platform.WinRT.Phone.pri.xml
+D:\XamarinPOC_WebView\XamarinFormsPOC.WindowsPhone 8.1\obj\Debug\ProjectArchitectures.txt

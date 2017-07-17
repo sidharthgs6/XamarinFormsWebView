@@ -19,16 +19,36 @@ namespace XamarinFormsPOC
             InitializeComponent();
 			this.BindingContext = new WebViewViewModel();
 
+            b2cwebview.RegisterAction(JSToCSharp);
 
 
-			Device.StartTimer(TimeSpan.FromSeconds(1), () =>             {                 Device.BeginInvokeOnMainThread(() =>                 {                     string source = "XamarinFormsPOC.LocalHTML.TermsAndCondition.html";
+            Device.StartTimer(TimeSpan.FromSeconds(1), () =>
+            {
+                Device.BeginInvokeOnMainThread(() =>
+                {
+                    string source = "XamarinFormsPOC.LocalHTML.TermsAndCondition.html";
                     string htmlString = string.Empty;
-                    var assembly = typeof(Login).GetTypeInfo().Assembly;                     using (Stream stream = assembly.GetManifestResourceStream(source))                     {                         StreamReader reader = new StreamReader(stream);
-                        htmlString = reader.ReadToEnd();                     }  					 b2cwebview.Source = new HtmlWebViewSource { Html = htmlString };                 });                  return false; 			});
+                    var assembly = typeof(Login).GetTypeInfo().Assembly;
+                    using (Stream stream = assembly.GetManifestResourceStream(source))
+                    {
+                        StreamReader reader = new StreamReader(stream);
+                        htmlString = reader.ReadToEnd();
+                    }
+
+					 b2cwebview.Source = new HtmlWebViewSource { Html = htmlString };
+                });
+
+                return false;
+			});
 
         }
 
-		void btnGO_Clicked(object sender, System.EventArgs e)
+        private void JSToCSharp(string obj)
+        {
+            DisplayAlert("Call Function From JS To C#", obj, "Ok");
+        }
+
+        void btnGO_Clicked(object sender, System.EventArgs e)
 		{
 			Device.StartTimer(TimeSpan.FromSeconds(1), () =>
             {
@@ -75,5 +95,15 @@ namespace XamarinFormsPOC
           WebViewViewModel obj = (WebViewViewModel)this.BindingContext;
  
 		}
+
+        private async void btnMOB_TO_WV_CNHG_DDL_Clicked(object sender, EventArgs e)
+        {
+            WebViewViewModel obj = (WebViewViewModel)this.BindingContext;
+            var watch = System.Diagnostics.Stopwatch.StartNew();
+            await obj.EvaluateJavascript("changeDropDown('20');");
+            watch.Stop();
+            var elapsedMs = watch.ElapsedMilliseconds;
+           await DisplayAlert("ExecutionTime:Milliseconds", elapsedMs.ToString(), "Ok");
+        }
     }
 }

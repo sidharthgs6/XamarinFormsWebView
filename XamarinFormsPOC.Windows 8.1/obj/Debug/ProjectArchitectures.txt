@@ -1,0 +1,2 @@
+D:\XamarinPOC_WebView\XamarinFormsPOC.Windows 8.1\XamarinFormsPOC.Windows 8.1.csproj;neutral
+D:\XamarinPOC_WebView\XamarinFormsPOC\XamarinFormsPOC\XamarinFormsPOC.csproj;neutral
