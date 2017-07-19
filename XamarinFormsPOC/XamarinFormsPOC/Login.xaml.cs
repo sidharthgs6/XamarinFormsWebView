@@ -19,8 +19,7 @@ namespace XamarinFormsPOC
             InitializeComponent();
 			this.BindingContext = new WebViewViewModel();
 
-            b2cwebview.RegisterAction(JSToCSharp);
-
+             b2cwebview.RegisterAction(JSToCSharp);
 
             Device.StartTimer(TimeSpan.FromSeconds(1), () =>
             {
@@ -35,11 +34,12 @@ namespace XamarinFormsPOC
                         htmlString = reader.ReadToEnd();
                     }
 
-					 b2cwebview.Source = new HtmlWebViewSource { Html = htmlString };
+                    b2cwebview.Source = new HtmlWebViewSource { Html = htmlString };
                 });
 
                 return false;
-			});
+            });
+
 
         }
 
@@ -50,18 +50,17 @@ namespace XamarinFormsPOC
 
         void btnGO_Clicked(object sender, System.EventArgs e)
 		{
-			Device.StartTimer(TimeSpan.FromSeconds(1), () =>
-            {
-                Device.BeginInvokeOnMainThread(() =>
-                {
-                   
+            Device.StartTimer(TimeSpan.FromSeconds(1), () =>
+                     {
+                         Device.BeginInvokeOnMainThread(() =>
+                         {
+                             b2cwebview.Source = weburl.Text;
+                         });
 
-					b2cwebview.Source = weburl.Text;
-                });
+                         return false;
+                     });
 
-                return false;
-			});
-		}
+        }
 
 		async void btnWV_TO_MOB_Clicked(object sender, System.EventArgs e)
 		{
@@ -79,8 +78,6 @@ namespace XamarinFormsPOC
           WebViewViewModel obj = (WebViewViewModel)this.BindingContext;
            await obj.EvaluateJavascript("changeText('" + txtName.Text +"','"+ txtAddress.Text +"','"+ txtCity.Text +"');");
 
-          // await obj.EvaluateJavascript("changeText('er','ty','ui');");
-			//await obj.EvaluateJavascript("document.getElementById('txtAddress').value='yuio';");
 		}
 
 		async void Handle_Clicked(object sender, System.EventArgs e)
@@ -90,11 +87,11 @@ namespace XamarinFormsPOC
 			txtHtmlContent.Text = htmlcontent;
 		}
 
-		void Handle_Navigating(object sender, Xamarin.Forms.WebNavigatingEventArgs e)
-		{
-          WebViewViewModel obj = (WebViewViewModel)this.BindingContext;
+		//void Handle_Navigating(object sender, Xamarin.Forms.WebNavigatingEventArgs e)
+		//{
+  //        WebViewViewModel obj = (WebViewViewModel)this.BindingContext;
  
-		}
+		//}
 
         private async void btnMOB_TO_WV_CNHG_DDL_Clicked(object sender, EventArgs e)
         {

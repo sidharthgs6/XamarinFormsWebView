@@ -86,11 +86,13 @@
 
 
 		
-				<webcontrol:WebViewer x:Name="b2cwebview" Grid.Row="1"  Navigating="Handle_Navigating"   EvaluateJavascript="{Binding EvaluateJavascript}, Mode=OneWayToSource}"></webcontrol:WebViewer> 
-			
+				<webcontrol:WebViewer x:Name="b2cwebview" Grid.Row="1"     EvaluateJavascript="{Binding EvaluateJavascript}, Mode=OneWayToSource}"></webcontrol:WebViewer>
+
+            <!--<webcontrol:WebViewer x:Name="b2cwebview1"  Grid.Row="1" EvaluateJavascript="{Binding EvaluateJavascript}, Mode=OneWayToSource}" ></webcontrol:WebViewer>-->
+            
 
 
-	</Grid>
+        </Grid>
 		
 	</Grid>
 

@@ -12,10 +12,10 @@
 
     function changeDropwnfromHtml()
     {
-       // var start = new Date().getTime();
+        var start = new Date().getTime();
         document.getElementById('ddlOption').value = 14;
-       // var end = new Date().getTime();
-       // alert("hi");
+       var end = new Date().getTime();
+        document.getElementById("timer").innerHTML = end - start;
     }
 
     function changeDropDown(ddlvalue) {
@@ -69,7 +69,9 @@
         
     </select>
         <button   onclick="changeDropwnfromHtml();">Change DropDown Value</button>
+        
     </p>
+    <div id="timer"> timer</div>
     <p><button type="button" onclick="javascript:invokeCSCode('ValueFrom JS');">Invoke C# Code</button></p>
 			<p><b>Registration Form</b></p>
 			<p>Name</p>
@@ -87,6 +89,6 @@
     <li>Privacy policies and notices </li><br>
     <b>The borrower has read and agrees to the above terms and conditions</b>
 </font>
-
+   
 </body>
 </html>
